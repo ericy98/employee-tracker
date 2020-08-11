@@ -9,3 +9,15 @@ CREATE TABLE employee (
     role_id INT UNSIGNED NOT NULL,
     manager_id INT UNSIGNED 
 );
+
+CREATE TABLE department (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE roles (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(30) NOT NULL,
+    salary decimal NOT NULL,
+    department_id INT UNSIGNED NOT NULL
+);
