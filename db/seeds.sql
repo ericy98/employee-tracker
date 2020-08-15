@@ -1,10 +1,8 @@
-USE employees;
-
 INSERT INTO department
     (name)
 VALUES
     ('Legal'),
-    ('Finance')
+    ('Finance'),
     ('Development');
 
 INSERT INTO roles

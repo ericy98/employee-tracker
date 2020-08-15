@@ -26,14 +26,23 @@ class DB {
             
         );
     }
-    addDeptartment() {
-
+    addDeptartment(department) {
+        return this.connection.promise().query(
+            `INSERT INTO department SET ?`, 
+            department
+        );
     }
-    addNewRole() {
-
+    addNewRole(role) {
+        return this.connection.promise().query(
+            `INSERT INTO roles SET ?`, 
+            role
+        )
     }
-    addNewEmployee() {
-
+    addNewEmployee(employee) {
+        return this.connection.promise().query(
+            `INSERT INTO employee SET ?`, 
+            employee
+        )
     }
     updateEmployeeRole() {
 
