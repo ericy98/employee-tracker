@@ -1,5 +1,7 @@
 # Employee Tracker
 
+[_Video Walkthru_](https://drive.google.com/file/d/1JDbOb6guJJbErGGdCTgC0ZWYCh-dNKOc/view)
+
 ## Description:
 A program that tracks a companys roles, departments, and employees and features the ability to update each.
 
